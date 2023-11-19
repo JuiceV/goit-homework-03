@@ -58,6 +58,7 @@ padding-right: 15px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
 }
 .logo{
     color: #2E2F42;
@@ -67,7 +68,6 @@ padding-right: 15px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-right: 76px;
 }
 
 /* NAV */
@@ -161,9 +161,10 @@ background: #404BBF;
 }
 
 /* BENEFITS */
-.benefits-title{
-    margin-bottom: 8px;
+.benefits-section{
+    padding: 120px 0;
 }
+
 .benefits-item{
     width: calc((100% - 72px) / 4);
 }
@@ -171,7 +172,6 @@ background: #404BBF;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding: 120px 0;
     gap: 24px;
 }
 .ben-item-title{
@@ -180,6 +180,7 @@ background: #404BBF;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
 .ben-item-text{
         font-size: 16px;
@@ -193,8 +194,7 @@ background: #404BBF;
 }
 .team-section{
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+ padding: 120px 0;
 }
 .team-list{
     display: flex;
@@ -209,13 +209,13 @@ background: #404BBF;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
-        border-radius: 0px 0px 4px 4px;
 }
 .team-it-foto{
     margin-bottom: 32px;
 }
 .team-item{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-it-title{
     color: #2E2F42;
@@ -293,8 +293,6 @@ background: #404BBF;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        display: inline-block;
-        margin-bottom: 16px;
 }
 .footer-text{
     color: #F4F4FD;
@@ -302,4 +300,15 @@ background: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         width: 264px;
+}
+.page-logo-footer{
+    color: #4D5AE5;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        display: inline-block;
+            margin-bottom: 16px;
 }
