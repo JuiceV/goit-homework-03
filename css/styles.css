@@ -82,7 +82,7 @@ padding-right: 15px;
 }
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-link{
@@ -106,7 +106,7 @@ color: #404BBF;
 }
 .address-list{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .addres-link{
     color: #434455;
@@ -133,7 +133,7 @@ color: #404BBF;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        width: 496px;
+        max-width: 496px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 48px;
@@ -151,6 +151,9 @@ color: #404BBF;
                 margin-right: auto;
                 border-radius: 4px;
                 padding: 16px 32px;
+                min-width: 169px;
+                height: 56px;
+                border: none;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -158,13 +161,18 @@ background: #404BBF;
 }
 
 /* BENEFITS */
+.benefits-title{
+    margin-bottom: 8px;
+}
+.benefits-item{
+    width: calc((100% - 72px) / 4);
+}
 .benefits-list{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    column-gap: 24px;
+    padding: 120px 0;
+    gap: 24px;
 }
 .ben-item-title{
     color: #2E2F42;
@@ -180,7 +188,9 @@ background: #404BBF;
 }
 
 /* OUR TEAM */
-
+.workers{
+    padding: 32px 0;
+}
 .team-section{
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -188,7 +198,7 @@ background: #404BBF;
 }
 .team-list{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .team-title{
     color: #2E2F42;
@@ -199,6 +209,7 @@ background: #404BBF;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
+        border-radius: 0px 0px 4px 4px;
 }
 .team-it-foto{
     margin-bottom: 32px;
@@ -271,7 +282,7 @@ background: #404BBF;
 /* FOOTER */
 .page-footer{
     background: #2E2F42;
-   padding-top: 101.5px;
+   padding-top: 100px;
    padding-bottom: 100px;
 }
 .logo-footer{
@@ -282,6 +293,8 @@ background: #404BBF;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 .footer-text{
     color: #F4F4FD;
@@ -289,5 +302,4 @@ background: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         width: 264px;
-        margin-top: 17.5px;
 }
